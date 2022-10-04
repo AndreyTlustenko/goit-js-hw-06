@@ -22,3 +22,9 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  display: block;
+  max-width: 500px;
+  max-height: 500px;
+}
