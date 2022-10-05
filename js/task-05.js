@@ -11,3 +11,14 @@ textInputRef.addEventListener("input", (event) => {
 });    
    
   
+//     const inputValue = event.target.value;
+//     outputRef.textContent = `${inputValue}` ;
+
+// input.addEventListener("input",()=> {
+//     if (input.value)  {
+//       output.textContent = input.value;
+//     } else {
+//       output.textContent = "Anonymous";
+//     }
+//   });
+
