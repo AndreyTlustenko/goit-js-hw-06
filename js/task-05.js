@@ -10,14 +10,4 @@ textInputRef.addEventListener("input", (event) => {
     outputRef.textContent = "Anonymous";}
 });    
    
-    // const inputValue = event.target.value;
-    // outputRef.textContent = `${inputValue}` ;
-
-// input.addEventListener("input",()=> {
-//     if (input.value)  {
-//       output.textContent = input.value;
-//     } else {
-//       output.textContent = "Anonymous";
-//     }
-//   });
-
+  
