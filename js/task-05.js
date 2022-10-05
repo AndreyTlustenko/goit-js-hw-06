@@ -6,10 +6,10 @@ console.log(outputRef)
 textInputRef.addEventListener("input", (event) => {
    
     const inputValue = event.target.value;
-    outputRef.textContent = `${inputValue}`;
+    outputRef.textContent = `${inputValue}` ;
 });
 input.addEventListener("input",()=> {
-    if (input.value ==="") {
+    if (input.value)  {
       output.textContent = input.value;
     } else {
       output.textContent = "Anonymous";
