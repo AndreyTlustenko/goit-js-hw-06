@@ -8,7 +8,8 @@ if (email.value === "" || password.value === "") {
     alert("все поля должны быть заполнены")
 } else {
     console.log({"email": email.value, "password": password.value })
-}docForm.reset();
+    docForm.reset();
+}
 
 
 });
